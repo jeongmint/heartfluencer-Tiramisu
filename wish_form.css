@@ -1,0 +1,98 @@
+p{
+    margin-left: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#green_btn {
+    align-items: center;
+    margin-left: 240px;
+    background-color: rgb(122, 204, 46);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#textfield{
+    text-align: center;
+    width: 230px;
+    height: 30px;
+}
+
+#left_box {
+    position: absolute;
+    top: 30%;
+    margin-top: 40px;
+    margin-left: 240px;
+    padding:10px;
+}
+
+#right_box {
+    position: absolute;
+    top: 32%;
+    right: 240px;
+    background-color: rgb(194, 194, 194);
+    margin-top: 40px;
+    border-radius: 5px;
+    padding:40px;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 2px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: green;
+    border-radius: 2px;
+}
+
+#prog_1, #prog_2, #prog_3 {
+    width: 40%;
+    height: 20px;
+}
+
+#prog_1 {
+    margin-left: 18%;
+}
+
+#prog_2 {
+    margin-left: 5%;
+}
+
+#prog_3 {
+    margin-left: 12%;
+}
+
+#vote_btn {
+    align-items: center;
+    background-color: rgb(122, 204, 46);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 230px;
+}
